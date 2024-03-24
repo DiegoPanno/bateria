@@ -1,7 +1,7 @@
 import "./Comentarios.css"
 import uno from "./img/comentarioUno.png"
 import dos from "./img/comentarioDOS.png"
-import tres from "./img/comentariotRES.png"
+import tres from "./img/comentarioTres.png"
 import { Link } from "react-router-dom"
 import { FaRegCommentDots } from "react-icons/fa";
 import React from 'react'
