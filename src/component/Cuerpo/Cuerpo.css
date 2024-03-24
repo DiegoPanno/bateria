@@ -1,0 +1,144 @@
+.conte-main {
+    /* background-color: #0077c8; */
+    background: linear-gradient(180deg, #0055ff 0%, rgb(0, 153, 255) 100%);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-cuerpo {
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.div-conte-cuerpo1 {
+    background-color: #E6E6E6;
+    height: 147px;
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.div-conte-cuerpo2 {
+    background-color: #E6E6E6;
+    height: 147px;
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.div-conte-cuerpo3 {
+    background-color: #E6E6E6;
+    height: 147px;
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.conte-cuerpo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.span-cuerpo {
+    margin-top: 10px;
+}
+
+.conte-marcas {
+    display: flex;
+    
+}
+
+.h2-slider {
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h4-slider {
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    font-weight: 300;
+    line-height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .h2-cuerpo {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+      text-align: justify;
+    }
+  
+    .h2-slider {
+      font-size: 30px;
+      margin-top: 60px;
+    }
+  
+    .h4-slider {
+      font-size: 1.2em;
+      margin-top: 5px;
+    }
+  
+    .div-conte-cuerpo1,
+    .div-conte-cuerpo2,
+    .div-conte-cuerpo3 {
+      width: 100%;
+      max-width: 300px; /* O ajusta según tus necesidades */
+    }
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .conte-cuerpo {
+      flex-direction: column;
+      gap: 10px;
+      margin-right: 5%;
+    }
+  
+    .conte-marcas {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .div-conte-cuerpo1,
+    .div-conte-cuerpo2,
+    .div-conte-cuerpo3 {
+      margin: 20px;
+    }
+
+    .h2-slider,
+    .h4-slider {
+      margin-left: 10%;
+      margin-right: 5%;
+    }
+  }
+  

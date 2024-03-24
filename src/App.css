@@ -1,0 +1,12 @@
+body {
+  background-color: #E6E6E6;
+
+}
+
+.nav-app-conte {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #E6E6E6;
+  height: 60px;
+}

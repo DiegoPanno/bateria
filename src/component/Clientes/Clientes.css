@@ -1,0 +1,40 @@
+.conte-cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
+}
+
+.h2-clientes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0077c8;
+    font-size: 40px;
+}
+
+
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.clientes img {
+    
+   border-radius: 5px;
+   
+
+}
+
+@media screen and (max-width: 768px) {
+    .clientes {
+        margin-bottom: 20%;
+    }
+    .h2-clientes {
+        margin-top: 20%;
+    }
+
+}

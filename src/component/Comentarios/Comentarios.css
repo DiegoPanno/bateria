@@ -1,0 +1,71 @@
+.conte-comentario {
+    height: auto;
+    width: auto;
+    background: rgb(118, 117, 117);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.h2-comentario {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.conte-coment-img {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+.comentario-img {
+   object-fit: cover;
+   
+
+}
+
+.img-coment {
+    background-color: white;
+    height: 100%; /* o utiliza un porcentaje como 50% */
+    width: 100%; /* o utiliza un porcentaje como 50% */
+    max-width: 430px; /* añade un ancho máximo para pantallas más grandes */
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    object-fit: scale-down;
+}
+
+.comentar {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #001949;
+    cursor: pointer;
+    margin-bottom: 40px;
+    
+    border: 2px solid #001949;
+    border-radius: 15px;
+    padding: 10px;
+    background: white;
+}
+.comentar:hover {
+    color: white;
+    background: none;
+}
+
+@media screen and (max-width: 768px) {
+    .conte-coment-img {
+        flex-direction: column; 
+        margin: 10px;
+    }
+
+    .h2-comentario {
+        text-align: center;
+       
+    }
+}

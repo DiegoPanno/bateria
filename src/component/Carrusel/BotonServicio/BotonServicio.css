@@ -1,0 +1,68 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #001949;
+    padding-right: 600px;
+    
+}
+
+.btn-servicio {
+    border-radius: 15px;
+    border: none;
+    background-color: #fc8c08;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.btn-servicio:hover {
+    background-color: white;
+    color: #5ea807;
+}
+
+.conte-servicio {
+    margin-bottom: 15%;
+    margin-left: 15%;
+   
+
+}
+
+@media screen and (max-width: 768px) {
+    .conte-servicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20%; /* Ajusta el margen según sea necesario */
+        margin-left: 5px;
+        margin-right: 5%;
+    }
+    
+    h1 {
+      
+      font-size: 36px; /* Ajusta el tamaño del título para pantallas más pequeñas */
+      padding-right: 0; /* Elimina el relleno derecho */
+      text-align: center; /* Centra el texto */
+      margin-top: 80px;
+    }
+  
+    .btn-servicio {
+      width: 100%; /* Ancho completo para el botón */
+      margin-top: 15px; /* Añade un margen superior para separar el botón del título */
+      gap: 10px; /* Reduce el espacio entre el ícono y el texto en el botón */
+    }
+
+    .conte-servicio {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        text-align: center; /* Centra el contenido en el contenedor */
+      }
+  }
+  
