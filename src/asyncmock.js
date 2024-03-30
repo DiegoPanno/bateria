@@ -1,4 +1,5 @@
 import imgMoura from "./assets/ImgMarcas/imgMoura.png"
+import imgSermat from "./assets/ImgMarcas/bateria65am.png"
 
 const productos = [
     {
@@ -32,6 +33,14 @@ const productos = [
         image: imgMoura,
         idCat: "auto-pickups",
         precio: "$105.650"
+    },
+    {
+        id: "Sermat65",
+        titulo: "Sermat 65",
+        medida: "Medida comercial 12x65",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$"
     },
     {
         id: "M22GD",
@@ -89,6 +98,7 @@ const productos = [
         idCat: "auto-pickups",
         precio: "$210.650"
     },
+  
     {
         id: "M18SD",
         titulo: "M18SD",
