@@ -11,6 +11,14 @@ const productos = [
         precio: "$93.900"
     },
     {
+        id: "Sermat45",
+        titulo: "Sermat 45",
+        medida: "Medida comercial 12x45",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$67.750"
+    },
+    {
         id: "M18FD",
         titulo: "M18FD",
         medida: "Medida comercial 12x50",
@@ -27,6 +35,14 @@ const productos = [
         precio: "$113.450"
     },
     {
+        id: "Sermat55",
+        titulo: "Sermat 55",
+        medida: "Medida comercial 12x55",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$79.000"
+    },
+    {
         id: "M20GD",
         titulo: "M20GD",
         medida: "Medida comercial 12x65",
@@ -40,7 +56,7 @@ const productos = [
         medida: "Medida comercial 12x65",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$"
+        precio: "$76.050"
     },
     {
         id: "M22GD",
@@ -59,12 +75,28 @@ const productos = [
         precio: "$128.450"
     },
     {
+        id: "Sermat70",
+        titulo: "Sermat 70",
+        medida: "Medida comercial 12x70",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$84.800"
+    },
+    {
         id: "M24KD",
         titulo: "M24KD",
         medida: "Medida comercial 12x75",
         image: imgMoura,
         idCat: "auto-pickups",
         precio: "$138.500"
+    },
+    {
+        id: "Sermat75",
+        titulo: "Sermat 75",
+        medida: "Medida comercial 12x75",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$90.850"
     },
     {
         id: "M28KD",
@@ -83,6 +115,14 @@ const productos = [
         precio: "$157.550"
     },
     {
+        id: "Sermat75alta",
+        titulo: "Sermat 75 alta",
+        medida: "Medida comercial 12x75",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$104.950"
+    },
+    {
         id: "ME80CD",
         titulo: "ME80CD",
         medida: "Medida comercial 12x80",
@@ -98,7 +138,14 @@ const productos = [
         idCat: "auto-pickups",
         precio: "$210.650"
     },
-  
+    {
+        id: "Sermat90",
+        titulo: "Sermat 90",
+        medida: "Medida comercial 12x90",
+        image: imgSermat,
+        idCat: "auto-pickups",
+        precio: "$"
+    },
     {
         id: "M18SD",
         titulo: "M18SD",
@@ -140,6 +187,14 @@ const productos = [
         precio: "$236.150"
     },
     {
+        id: "Sermat110",
+        titulo: "Sermat 110",
+        medida: "Medida comercial 12x110",
+        image: imgSermat,
+        idCat: "linea-pesada",
+        precio: "$"
+    },
+    {
         id: "ME150BD",
         titulo: "ME150BD",
         medida: "Medida comercial 12x180",
@@ -154,6 +209,14 @@ const productos = [
         image: imgMoura,
         idCat: "linea-pesada",
         precio: "$327.350"
+    },
+    {
+        id: "Sermat180",
+        titulo: "Sermat 180",
+        medida: "Medida comercial 12x180",
+        image: imgSermat,
+        idCat: "linea-pesada",
+        precio: "$"
     },
     {
         id: "ME23UI",
