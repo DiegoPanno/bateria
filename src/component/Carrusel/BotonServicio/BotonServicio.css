@@ -1,7 +1,7 @@
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 800;
     color: #001949;
     padding-right: 600px;
     
@@ -51,7 +51,7 @@ h1 {
       font-size: 36px; /* Ajusta el tamaño del título para pantallas más pequeñas */
       padding-right: 0; /* Elimina el relleno derecho */
       text-align: center; /* Centra el texto */
-      margin-top: 80px;
+      margin-top: 90px;
     }
   
     .btn-servicio {
