@@ -8,7 +8,7 @@ const productos = [
         medida: "Medida comercial 12x40",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$115.200"
+        precio: "$123.300"
     },
     {
         id: "Sermat45",
@@ -16,7 +16,7 @@ const productos = [
         medida: "Medida comercial 12x45",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$93.200"
+        precio: "$98.800"
     },
     {
         id: "M18FD",
@@ -24,7 +24,7 @@ const productos = [
         medida: "Medida comercial 12x50",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$126.200"
+        precio: "$135.100"
     },
     {
         id: "M22ED",
@@ -32,7 +32,7 @@ const productos = [
         medida: "Medida comercial 12x55",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$135.500"
+        precio: "$145.000"
     },
     {
         id: "Sermat55",
@@ -40,7 +40,7 @@ const productos = [
         medida: "Medida comercial 12x55",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$108.700"
+        precio: "$115.200"
     },
     {
         id: "M20GD",
@@ -48,7 +48,7 @@ const productos = [
         medida: "Medida comercial 12x65",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$129.300"
+        precio: "$138.400"
     },
     {
         id: "Sermat65",
@@ -56,7 +56,7 @@ const productos = [
         medida: "Medida comercial 12x65",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$104.700"
+        precio: "$111.000"
     },
     {
         id: "M22GD",
@@ -64,7 +64,7 @@ const productos = [
         medida: "Medida comercial 12x65 reforzada",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$149.200"
+        precio: "$159.700"
     },
     {
         id: "M26AD",
@@ -72,7 +72,7 @@ const productos = [
         medida: "Medida comercial 12x70",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$156.300"
+        precio: "$167.200"
     },
     {
         id: "Sermat70",
@@ -80,7 +80,7 @@ const productos = [
         medida: "Medida comercial 12x70",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$116.700"
+        precio: "$123.700"
     },
     {
         id: "M24KD",
@@ -88,7 +88,7 @@ const productos = [
         medida: "Medida comercial 12x75",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$168.600"
+        precio: "$180.400"
     },
     {
         id: "Sermat75",
@@ -96,7 +96,7 @@ const productos = [
         medida: "Medida comercial 12x75",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$125.000"
+        precio: "$133.000"
     },
     {
         id: "M28KD",
@@ -104,7 +104,7 @@ const productos = [
         medida: "Medida comercial 12x75 reforzada",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$182.600"
+        precio: "$195.500"
     },
     {
         id: "M30LD",
@@ -112,7 +112,7 @@ const productos = [
         medida: "Medida comercial 12x75 alta",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$186.400"
+        precio: "$199.400"
     },
     {
         id: "Sermat75alta",
@@ -120,7 +120,7 @@ const productos = [
         medida: "Medida comercial 12x75",
         image: imgSermat,
         idCat: "auto-pickups",
-        precio: "$148.500"
+        precio: "$157.400"
     },
     {
         id: "ME80CD",
@@ -128,7 +128,7 @@ const productos = [
         medida: "Medida comercial 12x80",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$218.800"
+        precio: "$229.800"
     },
     {
         id: "ME95QD",
@@ -136,7 +136,7 @@ const productos = [
         medida: "Medida comercial 12x90",
         image: imgMoura,
         idCat: "auto-pickups",
-        precio: "$251.000"
+        precio: "$268.500"
     },
     {
         id: "Sermat90",
@@ -152,7 +152,7 @@ const productos = [
         medida: "Medida comercial 12x40",
         image: imgMoura,
         idCat: "linea-asiatica",
-        precio: "$120.700"
+        precio: "$ 129.100"
     },
     {
         id: "M22JD",
@@ -160,7 +160,7 @@ const productos = [
         medida: "Medida comercial 12x50",
         image: imgMoura,
         idCat: "linea-asiatica",
-        precio: "$139.100"
+        precio: "$148.900"
     },
     {
         id: "M22RI",
@@ -168,7 +168,7 @@ const productos = [
         medida: "Medida comercial 12x85",
         image: imgMoura,
         idCat: "linea-asiatica",
-        precio: "$203.000"
+        precio: "$217.200"
     },
     {
         id: "ME90TI",
@@ -184,7 +184,7 @@ const productos = [
         medida: "Medida comercial 12x110",
         image: imgMoura,
         idCat: "linea-pesada",
-        precio: "$281.900"
+        precio: "$293.200"
     },
     {
         id: "Sermat110",
@@ -200,7 +200,7 @@ const productos = [
         medida: "Medida comercial 12x180",
         image: imgMoura,
         idCat: "linea-pesada",
-        precio: "$351.600"
+        precio: "$376.200"
     },
     {
         id: "ME180BD",
@@ -208,7 +208,7 @@ const productos = [
         medida: "Medida comercial 12x180 reforzada",
         image: imgMoura,
         idCat: "linea-pesada",
-        precio: "$413.600"
+        precio: "$442.500"
     },
     {
         id: "Sermat180",
@@ -224,7 +224,7 @@ const productos = [
         medida: "Medida comercial 12x24",
         image: imgMoura,
         idCat: "pequenos-tractores",
-        precio: "$123.000"
+        precio: "$123.800"
     },
     {
         id: "MF60AD",
