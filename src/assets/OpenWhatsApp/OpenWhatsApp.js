@@ -1,4 +1,4 @@
-export const phoneNumber = "+5492234428070"; // Reemplaza con tu número de teléfono
+export const phoneNumber = "+5492235759444"; // Reemplaza con tu número de teléfono
 export const message = "¡Hola! vengo del sitio web, necesito más info por un servicio";
 
 // export const openWhatsAppChat = () => {
