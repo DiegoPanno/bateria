@@ -6,7 +6,10 @@ body {
 .nav-app-conte {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center; /* <-- OBLIGATORIO: Centra verticalmente hamburguesa, selector y logo */
   background-color: #E6E6E6;
-  height: 60px;
+  height: 60px; /* Altura fija de la franja */
+  padding: 0 20px; /* Padding lateral */
+  box-sizing: border-box;
+  width: 100%;
 }

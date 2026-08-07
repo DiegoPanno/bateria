@@ -1,17 +1,17 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AutoPickups from "./component/AutoPickups/AutoPickups";
-import LineaAsiatica from "./component/LineaAsiatica/LineaAsiatica"
+import LineaAsiatica from "./component/LineaAsiatica/LineaAsiatica";
 import Home from "./Home/Home";
 import LineaPesada from "./component/LineaPesada/LineaPesada";
 import PequenosTractores from "./component/PequenosTractores/PequenosTractores";
 import LineaEFB from "./component/LineaEFB/LineaEFB";
-
-
+import WhatsAppButton from "./WhatsAppButton/WhatsAppButton";
+import { CityProvider } from "./context/CityContext"; // Importar Provider
 
 function App() {
   return (
-    <>
+    <CityProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Home} />
@@ -21,9 +21,9 @@ function App() {
           <Route path="/pequenos-tractores" Component={PequenosTractores} />
           <Route path="/linea-efb" Component={LineaEFB} />
         </Routes>
-
+        <WhatsAppButton />
       </BrowserRouter>
-    </>
+    </CityProvider>
   );
 }
 

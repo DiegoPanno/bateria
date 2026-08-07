@@ -1,13 +1,12 @@
-import { HomeOutlined, WhatsAppOutlined, } from '@ant-design/icons';
+import { HomeOutlined, WhatsAppOutlined } from '@ant-design/icons';
 import { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
-import { openWhatsAppChat } from "../../assets/OpenWhatsApp/OpenWhatsApp";
+import { useCity } from "../../context/CityContext"; // Usamos el contexto de ciudad
 import CarruselNav from '../CarruselNav/CarruselNav';
 
-
-
 const NavBar = () => {
+  const { openWhatsApp } = useCity(); // Extraemos la función de WhatsApp dinámico
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
   const [menu_class, setMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -16,7 +15,6 @@ const NavBar = () => {
   const toggleSubMenu = () => {
     setIsSubMenuVisible(!isSubMenuVisible);
   };
-
 
   const toggleMenu = () => {
     if (!isMenuClicked) {
@@ -31,7 +29,6 @@ const NavBar = () => {
   };
 
   return (
-
     <div className="conte-nav">
       <div className="nav1">
         <div className="burger-menu" onClick={toggleMenu}>
@@ -44,11 +41,20 @@ const NavBar = () => {
       <div className={menu_class}>
         <ul>
           <Link to="/" className="li-nav"> <HomeOutlined /> Home</Link>
-          <p onClick={openWhatsAppChat} className="li-nav whatp"><WhatsAppOutlined /> Servicios</p>
-          {/* Agregar el botón de alternancia para los submenús */}
+          
+          {/* Llama al WhatsApp dinámico de la sucursal seleccionada */}
+          <p 
+            onClick={() => openWhatsApp("¡Hola! Consulta sobre servicios de baterías.")} 
+            className="li-nav whatp"
+          >
+            <WhatsAppOutlined /> Servicios
+          </p>
+
+          {/* Botón de alternancia para los submenús */}
           <p className="li-nav toggle-button" onClick={toggleSubMenu}>
             Baterías {isSubMenuVisible ? "▲" : "▼"}
           </p>
+
           {/* Submenús */}
           <div className={`conte-linea ${isSubMenuVisible ? "visible" : "hidden"}`}>
             <Link className='linea' to="/auto-pickups"><span className='span-flecha'>▶</span> Autos y Pick ups</Link>
@@ -58,15 +64,13 @@ const NavBar = () => {
             <Link className='linea' to="/linea-efb"><span className='span-flecha'>▶</span> Linea EFB</Link>
           </div>
         </ul>
+
         <div className='conte-linea-muestra'>
           <CarruselNav />
         </div>
       </div>
-
     </div>
-    
   );
 };
 
 export default NavBar;
-
