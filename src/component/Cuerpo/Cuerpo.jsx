@@ -1,10 +1,13 @@
 import React from "react";
 import { LiaCarBatterySolid } from "react-icons/lia";
 import { FcServices, FcMindMap } from "react-icons/fc";
+import { useCity } from "../../context/CityContext"; // <-- 1. Importas el hook del contexto
 import "./Cuerpo.css";
-import MarcasCarrusel from "../MarcasCarrusel/MarcasCarrusel"
+import MarcasCarrusel from "../MarcasCarrusel/MarcasCarrusel";
 
 const Cuerpo = () => {
+  const { city } = useCity(); // <-- 2. Obtienes el valor de la ciudad activa ('mdp' o 'cordoba')
+
   return (
     <main className="conte-main">
       <h2 className="h2-cuerpo">¿Buscas asesoramiento para tu vehículo?</h2>
@@ -23,9 +26,20 @@ const Cuerpo = () => {
         </div>
         <div className="div-conte-cuerpo3">
           <FcMindMap style={{ fontSize: 40 }} />
-          <span className="span-cuerpo">Representante ofial</span>
-          <span>en Mar del Plata</span>
-          <span>y zona.</span>
+          <span className="span-cuerpo">Representante oficial</span>
+          
+          {/* 3. Renderizado condicional según la ciudad seleccionada */}
+          {city === 'cordoba' ? (
+            <>
+              <span>en Villa Gral Belgrano</span>
+              <span>y Valle de Calamuchita</span>
+            </>
+          ) : (
+            <>
+              <span>en Mar del Plata</span>
+              <span>y zona.</span>
+            </>
+          )}
         </div>
       </div>
       
